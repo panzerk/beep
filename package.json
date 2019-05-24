@@ -1,0 +1,34 @@
+{
+  "name": "obj-testing",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://cheaww.github.io/Inkerz-ReactUI",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "file-saver": "^2.0.2",
+    "fs": "0.0.1-security",
+    "original-fs": "^1.0.0",
+    "react": "^15.6.1",
+    "react-color": "^2.17.3",
+    "react-dom": "^15.6.1",
+    "react-file-reader": "^1.1.4",
+    "react-native-fs": "^2.13.3",
+    "react-scripts": "1.1.0",
+    "react-three-renderer": "^3.2.3",
+    "react-three-renderer-objects": "0.0.6",
+    "three-obj-loader": "^1.1.3",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "three": "^0.89.0"
+  }
+}
